@@ -1,20 +1,22 @@
-.circle {
-  display: inline-flex;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  border: 1px solid black;
-  margin-right: 5px; /* Optional: Add some spacing between the circles and the text */
-}
-
-.white-circle {
-  background-color: white;
-  align-items: center;
-  justify-content: center;
-}
-
-.blue-circle {
-  background-color: blue;
-  align-items: center;
-  justify-content: center;
-}
+<style>
+  .circle {
+    display: inline-flex;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-right: 5px; /* Optional: Add some spacing between the circles and the text */
+  }
+  
+  .white-circle {
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .blue-circle {
+    background-color: blue;
+    align-items: center;
+    justify-content: center;
+  }
+<\style>
