@@ -15,7 +15,7 @@ def make_color_map_without_replacement(G):
         # 1st tertile
         elif node in ['A', 'A3', 'A22', 'A211', 'A12', 'A111',
                       'D', 'D3', 'D22', 'D211', 'D12', 'D111',
-                      'C3', 'C2', 'C32', 'C311', 'C22', 'C211', 'C12', 'C121', 'C11', 'C111'
+                      'C3', 'C2', 'C32', 'C311', 'C22', 'C211', 'C12', 'C121', 'C11', 'C111',  'C112',
                       'B3', 'B2', 'B32', 'B311', 'B22', 'B211', 'B12', 'B121', 'B11', 'B111']:
             color_map.append('blue')
         else:
